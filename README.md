@@ -11,7 +11,7 @@ These are the project files for running all my adaptation trials for the trottin
 **.\\Libraries\\**: This folder contains the ground contact model obtained from https://github.com/mathworks/Simscape-Multibody-Contact-Forces-Library \
 **.\vpp_data3\XXXXXXX_adapt.mat**: Resulting data from an adaptation trial based on the state vector index XXXXXXX.\
 **.\vpp_data3\XXXXXXX_nonadapt.mat**: Resulting data from a non-adapting trial based on the state vector index XXXXXXX.\
-**.\vpp_data3\states.mat**: The state variable vector used for the data in this directory.\
+**.\vpp_data3\states.mat**: The state variable vector used for the data in this directory.
 
 ## Overview:
 This project involved building a multibody model in simscape of a quadrupedal system that trots along the ground and uses adjustable hip stiffness to redirect the ground reaction forces (GRFs) acting on the feet during locomotion to point toward a virtual pivot point (VPP) that is located somewhere above the centor of mass (COM). The process has been automated into a script that runs all the siulations and saves the data, and a file that plots all the resulting data in formatted figures ready to be published. 
