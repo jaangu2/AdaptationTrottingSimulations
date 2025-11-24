@@ -8,7 +8,7 @@ These are the project files for running all my adaptation trials for the trottin
 **PlotAllVPPTrials.m**: Uses the saved data from all the trials and plots each trial in its own figure, ready to be published.\
 **PlotNonAdaptingResults.m**: Supplementary file called by the PlotAllVPPTrials.m code.\
 **PlotAdaptingResults.m**: Supplementary file called by the PlotAllVPPTrials.m code.\
-**.\\Libraries\\**: This folder contains the ground contact model obtained from https://github.com/mathworks/Simscape-Multibody-Contact-Forces-Library\
+**.\\Libraries\\**: This folder contains the ground contact model obtained from https://github.com/mathworks/Simscape-Multibody-Contact-Forces-Library \
 **.\vpp_data3\XXXXXXX_adapt.mat**: Resulting data from an adaptation trial based on the state vector index XXXXXXX.\
 **.\vpp_data3\XXXXXXX_nonadapt.mat**: Resulting data from a non-adapting trial based on the state vector index XXXXXXX.\
 **.\vpp_data3\states.mat**: The state variable vector used for the data in this directory.\
